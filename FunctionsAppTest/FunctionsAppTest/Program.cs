@@ -25,7 +25,7 @@ namespace FunctionsAppTest
 
 
             var deployment = azure.Deployments.Define("myDeployment")
-                .WithNewResourceGroup("PrasannaTestArm1", Region.USWest2)
+                .WithNewResourceGroup("PrasannaTestArm1", Region.USWestCentral)
                 .WithTemplateLink(templatePath, "1.0.0.0")
                 .WithParametersLink(paramPath, "1.0.0.0")
                 .WithMode(Microsoft.Azure.Management.ResourceManager.Fluent.Models.DeploymentMode.Incremental)

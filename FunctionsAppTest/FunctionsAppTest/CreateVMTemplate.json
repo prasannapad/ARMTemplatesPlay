@@ -68,7 +68,7 @@
         "[resourceId('Microsoft.Network/networkInterfaces/', 'myNic')]"
       ],
       "properties": {
-        "hardwareProfile": { "vmSize": "Standard_DS1" },
+        "hardwareProfile": { "vmSize": "Standard_DS1_v2" },
         "osProfile": {
           "computerName": "myVM",
           "adminUsername": "[parameters('adminUsername')]",
