@@ -29,9 +29,8 @@ namespace FunctionsAppTest
                 .WithTemplateLink(templatePath, "1.0.0.0")
                 .WithParametersLink(paramPath, "1.0.0.0")
                 .WithMode(Microsoft.Azure.Management.ResourceManager.Fluent.Models.DeploymentMode.Incremental)
-                .Create();
-            Console.WriteLine("Press enter to delete the resource group...");
-            Console.ReadLine();
+                .CreateAsync();
+
         }   
     }
 }
