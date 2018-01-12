@@ -18,7 +18,7 @@
       "properties": {
         "publicIPAllocationMethod": "Dynamic",
         "dnsSettings": {
-          "domainNameLabel": "myresourcegroupdns1"
+          "domainNameLabel": "punnakudns"
         }
       }
     },
